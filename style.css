@@ -544,3 +544,25 @@ span {
         font-size: 50%;
     }
 }
+
+
+.whatsapp-floating {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+
+.whatsapp-floating img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-floating img:hover {
+    transform: scale(1.1);
+}
